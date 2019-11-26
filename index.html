@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- For responsive layout -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- SEO Stuff -->
+    <meta
+      name="description"
+      content="Espektro is the annual fest of Kalyani Government Engineering College, This is the Gallery of Espektro featuring images from the annual fest"
+    />
+    <meta
+      name="og:title"
+      property="og:title"
+      content="Gallery | Espektro | Beta"
+    />
+    <meta
+      name="og:description"
+      property="og:description"
+      content="Espektro is the annual fest of Kalyani Government Engineering College, This is the Gallery of Espektro featuring images from the annual fest"
+    />
+
+    <!-- Title of the site -->
+    <title>Gallery | Espektro | Beta</title>
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gallery</h1>
+      <p class="tagline">Relieving the previous moments</p>
+      <div class="images">
+        <div class="image-box">
+          <img data-src="./images/img1.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img2.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img3.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img4.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img5.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img6.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img7.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img8.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img9.jpg" alt="" />
+        </div>
+        <div class="image-box">
+          <img data-src="./images/img10.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="global_viewer" id="global_viewer">
+      <div class="mid-carasoul">
+        <img src="./images/img1.jpg" alt="" id="full-screen-view" />
+        <div class="close" onclick="closeViewer()">X</div>
+        <div class="scroll-button-container">
+          <div class="scroll-button left" onclick="left()">&lt;</div>
+          <div class="scroll-button right" onclick="right()">&gt;</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
