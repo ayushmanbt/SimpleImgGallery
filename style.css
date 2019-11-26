@@ -6,6 +6,14 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 .container {
   width: 90%;
   max-width: 1024px;
